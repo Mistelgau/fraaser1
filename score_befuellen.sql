@@ -5,3 +5,4 @@ insert into score values
 (3,"Weiter so, aber könnte noch besser sein"),
 (4,"Langsam wird's"),
 (5,"Na also, geht doch");
+
