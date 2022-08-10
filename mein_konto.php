@@ -194,12 +194,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			<label for="benutzername" >Bitte geben Sie Ihren Benutzernamen ein:
 			<b style="color:red;"> * <br><?php echo $benutzernameERR;?></b></label>
 			<!-- hier wird php verwendet um eine Eingabe einzufordern, Abfrage im oberen php-Teil, dort auch Zuweisung der Fehlerausgabe -> $benutzernameERR -->
-			<input name="benutzername" type="text" class="feedback-input" placeholder="Benutzername"  value="<?php echo $benutzername;?>">
+			<input name="benutzername" type="text" class="feedback-input" placeholder="Benutzername" value="<?php echo $benutzername;?>">
 			<!-- durch die Eingabe des php-Values wird die Eingabe auch nach Submit beibehalten -->
 			
 			<label for="id" >Bitte geben Sie Ihre ID ein: 
 			<b  style="color:red;"> * <br><?php echo $idErr;?></b></label>		
-			<input name="id" type="number" class="feedback-input" placeholder="ID"  min="1" max="1000" value="<?php echo $id;?>">
+			<input name="id" type="number" class="feedback-input" placeholder="ID" min="1" max="1000" value="<?php echo $id;?>">
 			
 			
 			<label for="id_score">Bitte wählen Sie Ihren erzielten Score aus: <b style="color:red;"> * <?php echo $scoreErr;?></b></label>		
@@ -216,7 +216,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			</select>
 			<br>				
 			<p>
-			<input  type="submit" value="Absenden">
+			<input type="submit" value="Absenden">
 			</p>
 			<b id="ausgabe" style="color:red;">* Pflichtfeld</b>
 			
