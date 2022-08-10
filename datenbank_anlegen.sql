@@ -1,5 +1,7 @@
 create database db_istj;
+
 use db_istj;
+
 create table benutzer (id int unsigned not null auto_increment primary key,
 	vorname varchar(30),
 	nachname varchar(50),
